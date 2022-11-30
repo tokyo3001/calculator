@@ -1,0 +1,53 @@
+.main {
+    width: 400px;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+
+.screen {
+    background-color: black;
+    width: auto;
+    color: aliceblue;
+    padding: 18px;
+    font-size: 40px;
+    font-family: monospace;
+    text-align: right;
+}
+
+.btn-cls {
+    display: grid;
+    grid-template-areas: "clear clear arrow divide" "sev eig nine multi" "for fiv six min" 
+    "one two thre plus" "zero zero zero eql" ;
+}
+
+.btn-start-c {
+    grid-area: clear;
+    padding: 24px;
+    font-size: 40px;
+    background-color: #d8d9db;
+}
+
+.btn-start {
+    padding: 24px;
+    font-size: 40px;
+    background-color: #d8d9db;
+}
+
+.btn-start-z {
+    grid-area: zero;
+    font-size: 40px;
+    background-color: #d8d9db;
+}
+
+.yel {
+    background-color: #df974c;
+}
+
+.yel:hover {
+    background-color: #e1a76a;
+}
+
+.plan:hover {
+    background-color: #e6e6e6;
+}
+
